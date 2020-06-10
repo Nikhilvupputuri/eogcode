@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { actions as metricactions } from '../Metrics/reducer'
+import { actions as metricactions } from '../MetricsVisualization/reducer'
 import { useSubscription } from 'urql';
 
 interface props {
